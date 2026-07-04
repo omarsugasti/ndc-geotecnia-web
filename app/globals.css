@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --earth: #6e5339;
+  --steel: #2f5670;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-neutral-800 bg-white;
+}

@@ -1,0 +1,48 @@
+import type { MetadataRoute } from "next";
+
+const servicios = [
+  "anclajes",
+  "estabilizacion-de-taludes",
+  "shotcrete",
+  "micropilotes",
+  "estudios-de-suelos",
+  "prospeccion-mineral",
+];
+
+const blog = [
+  "que-es-un-estudio-de-suelo",
+  "diferencia-entre-spt-y-cpt",
+  "cuando-se-necesitan-micropilotes",
+  "como-prevenir-deslizamientos-de-tierra",
+];
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const base = "https://ndc-geotecnia.com";
+  const now = new Date();
+
+  const staticPages = [
+    { url: `${base}/`, priority: 1.0 },
+    { url: `${base}/servicios`, priority: 0.9 },
+    { url: `${base}/proyectos`, priority: 0.8 },
+    { url: `${base}/academia`, priority: 0.6 },
+    { url: `${base}/blog`, priority: 0.7 },
+    { url: `${base}/nosotros`, priority: 0.5 },
+    { url: `${base}/contacto`, priority: 0.6 },
+  ];
+
+  const servicePages = servicios.map((slug) => ({
+    url: `${base}/servicios/${slug}`,
+    priority: 0.9,
+  }));
+
+  const blogPages = blog.map((slug) => ({
+    url: `${base}/blog/${slug}`,
+    priority: 0.6,
+  }));
+
+  return [...staticPages, ...servicePages, ...blogPages].map((entry) => ({
+    ...entry,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+  }));
+}
