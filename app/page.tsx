@@ -38,6 +38,12 @@ const servicios = [
     resumen:
       "Estudios geológicos para identificar y evaluar depósitos minerales. Cartografía geológica, muestreo y análisis estructural del macizo rocoso.",
   },
+  {
+    slug: "mallas-geobrugg",
+    nombre: "Protección de Taludes con Mallas GEOBRUGG",
+    resumen:
+      "Instalación certificada de sistemas TECCO®, SPIDER® y DELTAX® de GEOBRUGG. Más de 40,000 m² instalados en Panamá.",
+  },
 ];
 
 const clientes = [
@@ -181,7 +187,7 @@ export default function Home() {
             <p className="text-neutral-400 text-sm mt-1">proyectos completados</p>
           </div>
           <div>
-            <p className="text-4xl font-bold">6</p>
+            <p className="text-4xl font-bold">7</p>
             <p className="text-neutral-400 text-sm mt-1">servicios especializados</p>
           </div>
           <div>

@@ -227,6 +227,74 @@ export const servicios: ServicioContenido[] = [
     ],
   },
   {
+    slug: "mallas-geobrugg",
+    nombre: "Protección de Taludes con Mallas GEOBRUGG",
+    tituloSeo: "Mallas GEOBRUGG en Panamá | Instalador Certificado TECCO, SPIDER y DELTAX",
+    resumen:
+      "Instalación certificada de sistemas de malla de alta resistencia GEOBRUGG (TECCO®, SPIDER® y DELTAX®) para estabilización superficial de taludes en roca y suelo.",
+    intro:
+      "NDC Geotecnia es instalador certificado de los sistemas de malla de alta resistencia GEOBRUGG, la referencia suiza en protección de taludes y control de caída de rocas. Con más de 40,000 m² instalados, somos uno de los equipos con mayor experiencia acumulada en este tipo de sistemas en Panamá. Cuando un talud necesita una solución superficial de alta capacidad — sin recurrir únicamente a shotcrete o concreto — las mallas GEOBRUGG ofrecen una alternativa flexible, revegetable y de probada trayectoria a nivel mundial.",
+    secciones: [
+      {
+        titulo: "¿Qué son los sistemas GEOBRUGG?",
+        parrafos: [
+          "GEOBRUGG es un fabricante suizo especializado en sistemas de malla de acero de alta resistencia para estabilización de taludes y protección contra caída de rocas, con proyectos instalados en todo el mundo. Sus sistemas están fabricados con alambre de acero de alta resistencia a la tracción — superior a 1770 N/mm² — en calibres de 2, 3 u 4 mm, lo que permite mantener la malla altamente pretensionada y minimizar deformaciones del talud tratado.",
+          "Como instalador certificado, NDC Geotecnia ha sido capacitado y avalado directamente para ejecutar montajes de estos sistemas siguiendo las especificaciones técnicas del fabricante, lo que garantiza que el desempeño de la malla en campo corresponda al diseño calculado.",
+        ],
+      },
+      {
+        titulo: "Sistema TECCO®: estabilización superficial de taludes",
+        parrafos: [
+          "El sistema TECCO® es una malla de acero de alta resistencia que se ancla directamente sobre la superficie del talud —ya sea roca o suelo suelto— mediante placas spike conectadas a anclajes o pernos. La malla se tensiona contra el terreno, generando una presión superficial que confina el material suelto y previene desprendimientos, deslizamientos superficiales y erosión.",
+          "Al tratarse de una estructura abierta (no una capa sólida como el shotcrete), el sistema TECCO® permite que la vegetación se desarrolle a través de la malla, lo que la hace especialmente adecuada para taludes donde se busca una solución que se integre visualmente al entorno con el tiempo, además de la función estructural.",
+        ],
+      },
+      {
+        titulo: "Sistema SPIDER®: protección activa en roca fracturada",
+        parrafos: [
+          "El sistema SPIDER® es una malla de cable espiral de alta resistencia diseñada para asegurar bloques de roca sueltos, formaciones irregulares, salientes rocosas y macizos con superficie muy fracturada — condiciones donde una malla plana convencional no se adapta bien al terreno. Utiliza una retícula flexible de anclajes junto con cables perimetrales que se ajustan al contorno irregular de la roca.",
+          "Es la solución típica cuando el talud presenta bloques individuales con riesgo de desprendimiento puntual, más que una falla superficial generalizada — un escenario distinto al que resuelve TECCO®, y frecuentemente se evalúan ambos sistemas (o su combinación) según el diagnóstico geotécnico del sitio.",
+        ],
+      },
+      {
+        titulo: "Sistema DELTAX®: alternativa liviana de instalación rápida",
+        parrafos: [
+          "El sistema DELTAX® es una malla de acero de alta resistencia que funciona como alternativa más económica y liviana a la malla hexagonal de doble torsión tradicional, para protección contra caída de rocas e inestabilidad de taludes. Al ser una malla de bajo peso, se instala sin necesidad de maquinaria pesada: se despliega en rollo, se corta al largo requerido y se adapta bien al contorno del terreno, lo que agiliza montajes en sitios de acceso limitado.",
+          "NDC Geotecnia también ha instalado malla DELTAX® en proyectos donde la prioridad es una solución de protección superficial rápida de montar y de menor costo relativo, sin sacrificar el respaldo técnico de un sistema certificado GEOBRUGG.",
+        ],
+      },
+      {
+        titulo: "Proceso de instalación",
+        parrafos: [
+          "La instalación comienza con el mismo paso que cualquier intervención seria en taludes: un diagnóstico geotécnico que determine el mecanismo de falla, la geometría del talud y la carga que la malla debe resistir. A partir de ahí se define el sistema (TECCO®, SPIDER®, DELTAX® o una combinación), el calibre de malla, el patrón de anclajes y las placas de fijación según las tablas de dimensionamiento del fabricante.",
+          "En campo, la superficie se limpia y perfila, se instalan los anclajes o pernos en el patrón definido, se extiende y fija la malla con las placas spike o el sistema de cables según corresponda, y se aplica el pretensado final. Todo el montaje sigue los manuales técnicos de GEOBRUGG, lo que permite verificar que la instalación cumple con el diseño calculado.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        pregunta: "¿Cuánta experiencia tiene NDC instalando estos sistemas?",
+        respuesta:
+          "NDC Geotecnia ha instalado más de 40,000 m² de mallas GEOBRUGG en proyectos de estabilización de taludes, como instalador certificado del fabricante.",
+      },
+      {
+        pregunta: "¿Cuál es la diferencia entre malla GEOBRUGG y shotcrete?",
+        respuesta:
+          "El shotcrete es una capa sólida de concreto proyectado; las mallas GEOBRUGG son sistemas flexibles y abiertos que permiten revegetación y suelen requerir menos intervención en la superficie del talud. Muchas veces se combinan: malla para confinamiento superficial y shotcrete en zonas puntuales que lo requieran.",
+      },
+      {
+        pregunta: "¿Por qué importa que el instalador esté certificado?",
+        respuesta:
+          "Porque el desempeño de estos sistemas depende de que el montaje —anclajes, patrón, pretensado— siga exactamente las especificaciones del fabricante. Una instalación certificada da respaldo técnico de que la malla funcionará según lo calculado en el diseño.",
+      },
+      {
+        pregunta: "¿Se puede usar en cualquier tipo de talud?",
+        respuesta:
+          "El sistema se selecciona según el diagnóstico: TECCO® para taludes de roca o suelo suelto con superficie relativamente uniforme, SPIDER® para roca fracturada con bloques irregulares, y DELTAX® como alternativa liviana y de instalación rápida cuando la prioridad es protección superficial a menor costo. Un estudio geotécnico previo determina cuál aplica, o si se necesita una combinación con anclajes y drenaje.",
+      },
+    ],
+  },
+  {
     slug: "prospeccion-mineral",
     nombre: "Prospección Mineral",
     tituloSeo: "Prospección Mineral en Panamá | Estudios Geológicos",

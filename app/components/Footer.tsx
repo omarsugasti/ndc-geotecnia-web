@@ -17,6 +17,7 @@ export default function Footer() {
             <li><Link href="/servicios/micropilotes">Micro Pilotes</Link></li>
             <li><Link href="/servicios/estudios-de-suelos">Estudios de Suelos</Link></li>
             <li><Link href="/servicios/prospeccion-mineral">Prospección Mineral</Link></li>
+            <li><Link href="/servicios/mallas-geobrugg">Mallas GEOBRUGG</Link></li>
           </ul>
         </div>
         <div>

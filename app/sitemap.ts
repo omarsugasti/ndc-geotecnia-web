@@ -7,6 +7,7 @@ const servicios = [
   "micropilotes",
   "estudios-de-suelos",
   "prospeccion-mineral",
+  "mallas-geobrugg",
 ];
 
 const blog = [
