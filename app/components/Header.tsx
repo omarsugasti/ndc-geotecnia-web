@@ -13,13 +13,13 @@ const nav = [
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-neutral-200">
-      <div className="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
+      <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image
             src="/images/logo.png"
             alt="NDC Geotecnia"
-            width={76}
-            height={40}
+            width={115}
+            height={60}
             priority
           />
         </Link>
