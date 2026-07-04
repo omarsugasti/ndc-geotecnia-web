@@ -14,15 +14,14 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-neutral-200">
       <div className="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 font-bold text-lg text-steel-700">
+        <Link href="/" className="flex items-center">
           <Image
             src="/images/logo.png"
             alt="NDC Geotecnia"
-            width={36}
-            height={19}
+            width={76}
+            height={40}
             priority
           />
-          NDC Geotecnia
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-neutral-700">
           {nav.map((item) => (
