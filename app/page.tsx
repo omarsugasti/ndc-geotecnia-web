@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const servicios = [
@@ -40,12 +41,12 @@ const servicios = [
 ];
 
 const clientes = [
-  "Empresa Nacional de Autopista (ENA)",
-  "Odebrecht Engenharia e Construção",
-  "Celsia",
-  "CEMEX",
-  "Naturgy",
-  "Grupo Los Pueblos",
+  { nombre: "Empresa Nacional de Autopista (ENA)", logo: "/images/client-ena.jpg" },
+  { nombre: "Odebrecht Engenharia e Construção", logo: "/images/client-odebrecht.jpg" },
+  { nombre: "Celsia", logo: "/images/client-celsia.png" },
+  { nombre: "CEMEX", logo: null },
+  { nombre: "Naturgy", logo: null },
+  { nombre: "Grupo Los Pueblos", logo: null },
 ];
 
 const testimonios = [
@@ -73,31 +74,40 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative">
-        <div className="mx-auto max-w-6xl px-4 py-20">
-          <p className="text-steel-700 font-semibold text-sm uppercase tracking-wide mb-3">
+      <section className="relative overflow-hidden">
+        <Image
+          src="/images/hero.jpg"
+          alt="Trabajo de geotecnia en talud rocoso"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center -z-10"
+        />
+        <div className="absolute inset-0 bg-neutral-900/60 -z-10" />
+        <div className="mx-auto max-w-6xl px-4 py-28 md:py-36">
+          <p className="text-orange-400 font-semibold text-sm uppercase tracking-wide mb-3">
             Geotecnia · Suelos · Geología
           </p>
-          <h1 className="text-4xl md:text-5xl font-bold text-neutral-900 max-w-3xl">
-            Estudios Geotécnicos, Micropilotes y Estabilización de Taludes en Panamá
+          <h1 className="text-4xl md:text-5xl font-bold text-white max-w-3xl">
+            El terreno habla. Nosotros lo entendemos.
           </h1>
-          <p className="mt-3 text-lg text-neutral-500 max-w-2xl">
-            &ldquo;El terreno habla. Nosotros lo entendemos.&rdquo;
-          </p>
-          <p className="mt-4 text-lg text-neutral-700 max-w-2xl">
+          <p className="mt-4 text-lg text-neutral-200 max-w-2xl">
             Estudios de suelos, anclajes, estabilización de taludes y más. Llevamos
             más de una década resolviendo los problemas del subsuelo que otros no ven.
           </p>
+          <blockquote className="mt-4 border-l-4 border-orange-400 pl-4 text-lg italic text-white/90 max-w-xl">
+            &ldquo;Estudios confiables, estructuras seguras.&rdquo;
+          </blockquote>
           <div className="mt-8 flex flex-wrap gap-4">
             <a
               href="https://wa.me/50766719558"
-              className="rounded-full bg-steel-700 text-white font-semibold px-6 py-3 hover:bg-steel-600"
+              className="rounded-full bg-orange-500 text-white font-semibold px-6 py-3 hover:bg-orange-400"
             >
               Solicitar cotización por WhatsApp
             </a>
             <a
               href="mailto:proyectos@ndc-geotecnia.com"
-              className="rounded-full border border-neutral-300 font-semibold px-6 py-3 hover:bg-neutral-50"
+              className="rounded-full border border-white/40 text-white font-semibold px-6 py-3 hover:bg-white/10"
             >
               Escribirnos por correo
             </a>
@@ -108,11 +118,24 @@ export default function Home() {
       {/* Clientes */}
       <section className="border-y border-neutral-100 bg-neutral-50">
         <div className="mx-auto max-w-6xl px-4 py-8">
-          <p className="text-center text-sm text-neutral-500 mb-4">Han confiado en nosotros</p>
-          <div className="flex flex-wrap justify-center gap-x-8 gap-y-3 text-neutral-600 font-medium text-sm">
-            {clientes.map((c) => (
-              <span key={c}>{c}</span>
-            ))}
+          <p className="text-center text-sm text-neutral-500 mb-6">Han confiado en nosotros</p>
+          <div className="flex flex-wrap justify-center items-center gap-x-10 gap-y-6">
+            {clientes.map((c) =>
+              c.logo ? (
+                <Image
+                  key={c.nombre}
+                  src={c.logo}
+                  alt={c.nombre}
+                  width={140}
+                  height={48}
+                  className="h-10 w-auto object-contain grayscale opacity-80"
+                />
+              ) : (
+                <span key={c.nombre} className="text-neutral-600 font-medium text-sm">
+                  {c.nombre}
+                </span>
+              )
+            )}
           </div>
         </div>
       </section>
@@ -164,6 +187,41 @@ export default function Home() {
           <div>
             <p className="text-4xl font-bold">100%</p>
             <p className="text-neutral-400 text-sm mt-1">equipo técnico propio</p>
+          </div>
+        </div>
+      </section>
+
+      {/* En campo */}
+      <section className="mx-auto max-w-6xl px-4 pb-20">
+        <p className="text-steel-700 font-semibold text-sm uppercase tracking-wide mb-2">
+          En campo
+        </p>
+        <h2 className="text-3xl font-bold text-neutral-900 mb-2">
+          Proyectos que quedan en pie
+        </h2>
+        <p className="text-neutral-600 max-w-2xl mb-8">
+          Desde estabilización de taludes en autopistas hasta anclajes en
+          edificaciones residenciales. Cada proyecto tiene sus propias condiciones
+          — y nosotros llegamos preparados para las dos.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="relative h-72 rounded-xl overflow-hidden">
+            <Image
+              src="/images/shotcrete.jpg"
+              alt="Aplicación de shotcrete en talud"
+              fill
+              sizes="(min-width: 768px) 50vw, 100vw"
+              className="object-cover"
+            />
+          </div>
+          <div className="relative h-72 rounded-xl overflow-hidden">
+            <Image
+              src="/images/collage.jpg"
+              alt="Collage de proyectos NDC Geotecnia"
+              fill
+              sizes="(min-width: 768px) 50vw, 100vw"
+              className="object-cover"
+            />
           </div>
         </div>
       </section>
