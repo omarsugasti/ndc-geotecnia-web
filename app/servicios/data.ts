@@ -229,9 +229,9 @@ export const servicios: ServicioContenido[] = [
   {
     slug: "mallas-geobrugg",
     nombre: "Protección de Taludes con Mallas GEOBRUGG",
-    tituloSeo: "Mallas GEOBRUGG en Panamá | Instalador Certificado TECCO, SPIDER y DELTAX",
+    tituloSeo: "Mallas GEOBRUGG en Panamá | Instalador Certificado TECCO, SPIDER, DELTAX y MINAX",
     resumen:
-      "Instalación certificada de sistemas de malla de alta resistencia GEOBRUGG (TECCO®, SPIDER® y DELTAX®) para estabilización superficial de taludes en roca y suelo.",
+      "Instalación certificada de sistemas de malla de alta resistencia GEOBRUGG (TECCO®, SPIDER®, DELTAX® y MINAX®) para estabilización superficial de taludes en roca y suelo, incluyendo minería y canteras.",
     intro:
       "NDC Geotecnia es instalador certificado de los sistemas de malla de alta resistencia GEOBRUGG, la referencia suiza en protección de taludes y control de caída de rocas. Con más de 40,000 m² instalados, somos uno de los equipos con mayor experiencia acumulada en este tipo de sistemas en Panamá. Cuando un talud necesita una solución superficial de alta capacidad — sin recurrir únicamente a shotcrete o concreto — las mallas GEOBRUGG ofrecen una alternativa flexible, revegetable y de probada trayectoria a nivel mundial.",
     secciones: [
@@ -264,9 +264,17 @@ export const servicios: ServicioContenido[] = [
         ],
       },
       {
+        titulo: "Sistema MINAX®: soporte de superficie para minería y canteras",
+        parrafos: [
+          "MINAX® es una malla de acero de alta resistencia diseñada específicamente para soporte de superficie a gran escala en minería subterránea y canteras a cielo abierto, como alternativa más liviana y eficiente frente a la malla soldada o la malla de cadena de acero convencional. Ofrece mayor resistencia con menor pérdida de área por traslape y tiempos de instalación significativamente más cortos.",
+          "Ensayos realizados por la Western Australian School of Mines (WASM) mostraron que la malla MINAX®, con alambre de alta resistencia (tensión superior a 1770 N/mm²), soporta cargas estáticas y dinámicas considerablemente mayores que las mallas de refuerzo convencionales, lo que también le permite absorber mayores niveles de energía en eventos como microsismicidad inducida por voladuras.",
+          "NDC Geotecnia instaló malla MINAX® G80/3 como parte del cierre de una mina en Panamá, en un caso presentado en el Congreso GEOBRUGG Panamá 2022 (ver caso completo en la sección de Proyectos).",
+        ],
+      },
+      {
         titulo: "Proceso de instalación",
         parrafos: [
-          "La instalación comienza con el mismo paso que cualquier intervención seria en taludes: un diagnóstico geotécnico que determine el mecanismo de falla, la geometría del talud y la carga que la malla debe resistir. A partir de ahí se define el sistema (TECCO®, SPIDER®, DELTAX® o una combinación), el calibre de malla, el patrón de anclajes y las placas de fijación según las tablas de dimensionamiento del fabricante.",
+          "La instalación comienza con el mismo paso que cualquier intervención seria en taludes: un diagnóstico geotécnico que determine el mecanismo de falla, la geometría del talud y la carga que la malla debe resistir. A partir de ahí se define el sistema (TECCO®, SPIDER®, DELTAX®, MINAX® o una combinación), el calibre de malla, el patrón de anclajes y las placas de fijación según las tablas de dimensionamiento del fabricante.",
           "En campo, la superficie se limpia y perfila, se instalan los anclajes o pernos en el patrón definido, se extiende y fija la malla con las placas spike o el sistema de cables según corresponda, y se aplica el pretensado final. Todo el montaje sigue los manuales técnicos de GEOBRUGG, lo que permite verificar que la instalación cumple con el diseño calculado.",
         ],
       },
@@ -290,7 +298,7 @@ export const servicios: ServicioContenido[] = [
       {
         pregunta: "¿Se puede usar en cualquier tipo de talud?",
         respuesta:
-          "El sistema se selecciona según el diagnóstico: TECCO® para taludes de roca o suelo suelto con superficie relativamente uniforme, SPIDER® para roca fracturada con bloques irregulares, y DELTAX® como alternativa liviana y de instalación rápida cuando la prioridad es protección superficial a menor costo. Un estudio geotécnico previo determina cuál aplica, o si se necesita una combinación con anclajes y drenaje.",
+          "El sistema se selecciona según el diagnóstico: TECCO® para taludes de roca o suelo suelto con superficie relativamente uniforme, SPIDER® para roca fracturada con bloques irregulares, DELTAX® como alternativa liviana y de instalación rápida, y MINAX® para soporte de superficie en minería y canteras. Un estudio geotécnico previo determina cuál aplica, o si se necesita una combinación con anclajes y drenaje.",
       },
     ],
   },

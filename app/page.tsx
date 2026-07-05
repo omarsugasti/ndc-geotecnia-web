@@ -42,7 +42,7 @@ const servicios = [
     slug: "mallas-geobrugg",
     nombre: "Protección de Taludes con Mallas GEOBRUGG",
     resumen:
-      "Instalación certificada de sistemas TECCO®, SPIDER® y DELTAX® de GEOBRUGG. Más de 40,000 m² instalados en Panamá.",
+      "Instalación certificada de sistemas TECCO®, SPIDER®, DELTAX® y MINAX® de GEOBRUGG. Más de 40,000 m² instalados en Panamá.",
   },
 ];
 
