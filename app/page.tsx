@@ -99,7 +99,7 @@ export default function Home() {
           </h1>
           <p className="mt-4 text-lg text-neutral-200 max-w-2xl">
             Estudios de suelos, anclajes, estabilización de taludes y más. Llevamos
-            más de una década resolviendo los problemas del subsuelo que otros no ven.
+            más de dos décadas resolviendo los problemas del subsuelo que otros no ven.
           </p>
           <blockquote className="mt-4 border-l-4 border-orange-400 pl-4 text-lg italic text-white/90 max-w-xl">
             &ldquo;Estudios confiables, estructuras seguras.&rdquo;
@@ -179,7 +179,7 @@ export default function Home() {
       <section className="bg-neutral-900 text-white">
         <div className="mx-auto max-w-6xl px-4 py-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div>
-            <p className="text-4xl font-bold">+10</p>
+            <p className="text-4xl font-bold">+20</p>
             <p className="text-neutral-400 text-sm mt-1">años en el mercado</p>
           </div>
           <div>

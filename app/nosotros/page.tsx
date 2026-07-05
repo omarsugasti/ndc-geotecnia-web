@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Nosotros",
   description:
-    "Empresa panameña de ingeniería geotécnica con más de 10 años de experiencia y más de 80 proyectos completados en Panamá.",
+    "Empresa panameña de ingeniería geotécnica con más de 20 años de experiencia y más de 80 proyectos completados en Panamá.",
 };
 
 export default function NosotrosPage() {
@@ -17,7 +17,7 @@ export default function NosotrosPage() {
         documentos que solo cubren responsabilidades.
       </p>
       <p className="text-neutral-700 leading-relaxed mb-4">
-        Con más de una década en el mercado y más de 80 proyectos completados, nuestro
+        Con más de 20 años en el mercado (fundada en 2005) y más de 80 proyectos completados, nuestro
         equipo técnico propio cubre todo el ciclo: desde el diagnóstico de campo hasta
         la ejecución de la solución geotécnica, sin subcontratar la parte crítica del
         trabajo.
@@ -30,7 +30,7 @@ export default function NosotrosPage() {
 
       <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
         <div>
-          <p className="text-3xl font-bold text-steel-700">+10</p>
+          <p className="text-3xl font-bold text-steel-700">+20</p>
           <p className="text-neutral-500 text-sm mt-1">años en el mercado</p>
         </div>
         <div>
@@ -38,7 +38,7 @@ export default function NosotrosPage() {
           <p className="text-neutral-500 text-sm mt-1">proyectos completados</p>
         </div>
         <div>
-          <p className="text-3xl font-bold text-steel-700">6</p>
+          <p className="text-3xl font-bold text-steel-700">7</p>
           <p className="text-neutral-500 text-sm mt-1">servicios especializados</p>
         </div>
         <div>
