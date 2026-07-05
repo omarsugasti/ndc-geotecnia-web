@@ -17,6 +17,8 @@ const blog = [
   "como-prevenir-deslizamientos-de-tierra",
 ];
 
+const proyectos = ["cierre-mina-cemex"];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://ndc-geotecnia.com";
   const now = new Date();
@@ -41,7 +43,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...servicePages, ...blogPages].map((entry) => ({
+  const proyectoPages = proyectos.map((slug) => ({
+    url: `${base}/proyectos/${slug}`,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...servicePages, ...blogPages, ...proyectoPages].map((entry) => ({
     ...entry,
     lastModified: now,
     changeFrequency: "monthly" as const,
