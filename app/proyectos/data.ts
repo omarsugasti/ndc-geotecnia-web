@@ -11,6 +11,7 @@ export interface CasoDetallado {
   cliente: string;
   resumen: string;
   problema: string;
+  imagenPortada: { src: string; alt: string };
   etapas: Etapa[];
   resultado: string;
 }
@@ -27,6 +28,10 @@ export const casos: CasoDetallado[] = [
       "Caracterización geológica, estudio cinemático y estabilización con malla GEOBRUGG MINAX® de un talud rocoso como parte del cierre de una cantera.",
     problema:
       "Talud rocoso de una cantera en proceso de cierre de mina, con un macizo fracturado que requería una evaluación formal de estabilidad antes de la clausura definitiva del sitio.",
+    imagenPortada: {
+      src: "/images/proyectos/cierre-mina-cemex-1.jpg",
+      alt: "Talud de cantera con malla GEOBRUGG MINAX instalada, vista aérea",
+    },
     etapas: [
       {
         titulo: "1. Introducción y alcance de la obra",

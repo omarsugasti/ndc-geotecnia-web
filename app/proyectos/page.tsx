@@ -34,17 +34,15 @@ export default function ProyectosPage() {
               href={`/proyectos/${c.slug}`}
               className="block rounded-xl border border-neutral-200 overflow-hidden hover:border-steel-600 hover:shadow-sm transition"
             >
-              {c.etapas[c.etapas.length - 1]?.imagenes[0] && (
-                <div className="relative h-56">
-                  <Image
-                    src={c.etapas[c.etapas.length - 1].imagenes[0].src}
-                    alt={c.etapas[c.etapas.length - 1].imagenes[0].alt}
-                    fill
-                    sizes="100vw"
-                    className="object-cover"
-                  />
-                </div>
-              )}
+              <div className="relative h-56">
+                <Image
+                  src={c.imagenPortada.src}
+                  alt={c.imagenPortada.alt}
+                  fill
+                  sizes="100vw"
+                  className="object-cover"
+                />
+              </div>
               <div className="p-6">
                 <h2 className="font-semibold text-xl text-neutral-900 mb-1">{c.nombre}</h2>
                 <p className="text-sm text-neutral-500 mb-3">
