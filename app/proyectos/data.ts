@@ -169,7 +169,7 @@ export const casos: CasoDetallado[] = [
       {
         titulo: "2. Investigación geotécnica de campo",
         parrafos: [
-          "Se ejecutaron doce (12) sondeos de exploración, alcanzando profundidades de hasta 3.15 metros, con recuperación de muestras y ensayo SPT para determinar la compacidad del terreno en cada estrato — que varió de Floja a Muy Densa según el punto y la profundidad.",
+          "Se ejecutaron doce (12) sondeos de exploración, con recuperación de muestras y ensayo SPT para determinar la compacidad del terreno en cada estrato — que varió de Floja a Muy Densa según el punto y la profundidad.",
           "En ninguno de los 12 pozos se detectó nivel freático, ni siquiera 24 horas después de la perforación, lo cual simplifica el diseño de fundaciones al eliminar el riesgo asociado a suelo saturado en la zona de influencia de las estructuras.",
         ],
         imagenes: [
@@ -200,7 +200,7 @@ export const casos: CasoDetallado[] = [
       {
         titulo: "5. Capacidad de carga y análisis de riesgos",
         parrafos: [
-          "La capacidad de carga se analizó para micropilotes (perfiles metálicos tipo C) con profundidades de empotramiento de 1.50 y 1.80 metros, definidas por el cliente, aplicando los métodos de Décourt-Quaresma y Aoki-Velloso. Los resultados confirmaron una capacidad de carga ALTA: hasta 233 toneladas (Décourt-Quaresma) y 355 toneladas (Aoki-Velloso) para estacas clavadas, y 14.6 y 24 toneladas respectivamente para estacas helicoidales, a 1.80 m de profundidad.",
+          "La capacidad de carga se analizó para micropilotes (perfiles metálicos tipo C) con profundidades de empotramiento de 1.50 y 1.80 metros, definidas por el cliente, aplicando los métodos de Décourt-Quaresma y Aoki-Velloso. Los resultados confirmaron una capacidad de carga ALTA.",
           "En paralelo se evaluaron dos riesgos geotécnicos adicionales: el potencial de expansión de suelos (métodos de Seed et al. 1962 y Dakshanamanthy y Raman 1973), que resultó de BAJO a MEDIO; y el potencial de licuefacción (método de Idriss y Boulanger, 2004, para un sismo de magnitud 7), que determinó que los suelos del proyecto son NO-LICUABLES.",
         ],
         imagenes: [],
@@ -215,7 +215,7 @@ export const casos: CasoDetallado[] = [
       },
     ],
     resultado:
-      "El estudio confirmó que el subsuelo del proyecto tiene capacidad de carga alta y sin restricciones significativas por expansión o licuefacción, permitiendo avanzar con el diseño de fundaciones del parque fotovoltaico. Informe NDC-P-24015, entregado en junio de 2024, con autorización de MASPV Panama para su publicación.",
+      "El estudio confirmó que el subsuelo del proyecto tiene capacidad de carga alta y sin restricciones significativas por expansión o licuefacción, permitiendo avanzar con el diseño de fundaciones del parque fotovoltaico. Informe NDC-P-24015, entregado en junio de 2024.",
   },
 ];
 
