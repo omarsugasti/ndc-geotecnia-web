@@ -181,6 +181,10 @@ export const casos: CasoDetallado[] = [
             src: "/images/proyectos/san-bartolo-3.jpg",
             alt: "Técnico de NDC Geotecnia registrando el perfil de suelo de una calicata excavada en campo",
           },
+          {
+            src: "/images/proyectos/sbp5-log.jpg",
+            alt: "Perfil de perforación SBP-5 con resultados del ensayo SPT, informe MASPV San Bartolo",
+          },
         ],
       },
       {
