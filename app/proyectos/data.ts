@@ -139,6 +139,84 @@ export const casos: CasoDetallado[] = [
     resultado:
       "Talud estabilizado con sistema de malla de alta resistencia GEOBRUGG antes del cierre de la mina. El caso fue presentado como estudio técnico en el Congreso GEOBRUGG Panamá 2022, con autorización de CEMEX para su publicación.",
   },
+  {
+    slug: "fotovoltaico-san-bartolo",
+    nombre: "Estudio Geotécnico y Geofísico — Parque Fotovoltaico San Bartolo",
+    ubicacion: "San Bartolo, provincia de Veraguas, Panamá",
+    cliente: "MASPV Panama",
+    resumen:
+      "Investigación geotécnica y geofísica completa (sondeos SPT, tomografía eléctrica y análisis de capacidad de carga) para el diseño de fundaciones de un parque fotovoltaico de 25 hectáreas.",
+    problema:
+      "Un parque fotovoltaico de 25 hectáreas en San Bartolo, Veraguas, requería caracterizar el subsuelo antes del diseño de fundaciones: definir la capacidad de carga para las estructuras de soporte de los paneles, evaluar riesgos de expansión y licuefacción, y determinar los mejores puntos para las puestas a tierra del sistema eléctrico.",
+    imagenPortada: {
+      src: "/images/proyectos/san-bartolo-1.jpg",
+      alt: "Camión perforador de NDC Geotecnia en el terreno del parque fotovoltaico San Bartolo, Veraguas",
+    },
+    etapas: [
+      {
+        titulo: "1. Introducción y alcance",
+        parrafos: [
+          "El proyecto consistió en el estudio geotécnico y geofísico para un parque fotovoltaico de 25 hectáreas en San Bartolo, provincia de Veraguas. El objetivo fue definir los parámetros geotécnicos del subsuelo, caracterizar la estratificación y litología del sitio, y recomendar el sistema de fundación adecuado para las estructuras de soporte.",
+          "El alcance de campo incluyó doce (12) sondeos de exploración con muestreo y ensayo de penetración estándar (SPT), complementados con calicatas y un estudio geofísico de resistividad eléctrica mediante tomografía en cuatro (4) líneas distribuidas en el predio.",
+        ],
+        imagenes: [
+          {
+            src: "/images/proyectos/san-bartolo-1.jpg",
+            alt: "Camión perforador de NDC Geotecnia en el terreno del parque fotovoltaico San Bartolo, Veraguas",
+          },
+        ],
+      },
+      {
+        titulo: "2. Investigación geotécnica de campo",
+        parrafos: [
+          "Se ejecutaron doce (12) sondeos de exploración, alcanzando profundidades de hasta 3.15 metros, con recuperación de muestras y ensayo SPT para determinar la compacidad del terreno en cada estrato — que varió de Floja a Muy Densa según el punto y la profundidad.",
+          "En ninguno de los 12 pozos se detectó nivel freático, ni siquiera 24 horas después de la perforación, lo cual simplifica el diseño de fundaciones al eliminar el riesgo asociado a suelo saturado en la zona de influencia de las estructuras.",
+        ],
+        imagenes: [
+          {
+            src: "/images/proyectos/san-bartolo-2.jpg",
+            alt: "Técnico de NDC Geotecnia operando equipo de perforación SPT en campo, San Bartolo",
+          },
+          {
+            src: "/images/proyectos/san-bartolo-3.jpg",
+            alt: "Técnico de NDC Geotecnia registrando el perfil de suelo de una calicata excavada en campo",
+          },
+        ],
+      },
+      {
+        titulo: "3. Geología y clasificación de suelos",
+        parrafos: [
+          "Los suelos del área corresponden a depósitos residuales arenosos, producto del intemperismo sobre tobas y brechas volcánicas de las Formaciones Virigua y Boró (Terciario Mioceno Superior). Según los ensayos de laboratorio, se clasificaron bajo el Sistema Unificado de Clasificación de Suelos (SUCS) como arena mal graduada con limo (SP-SM), arena mal graduada con limo y grava (SP-SM), y arena arcillosa (SC).",
+        ],
+        imagenes: [],
+      },
+      {
+        titulo: "4. Estudio geofísico de resistividad eléctrica",
+        parrafos: [
+          "Se realizó un estudio de Tomografía Eléctrica (ERT) con configuración Schlumberger-Wenner en cuatro líneas (SBT-1 a SBT-4), cada una con una profundidad de investigación de 6 metros. El objetivo fue identificar las zonas de menor resistividad del terreno — es decir, las más favorables para ubicar las puestas a tierra del sistema eléctrico del parque fotovoltaico, optimizando el diseño y reduciendo costos de instalación.",
+        ],
+        imagenes: [],
+      },
+      {
+        titulo: "5. Capacidad de carga y análisis de riesgos",
+        parrafos: [
+          "La capacidad de carga se analizó para micropilotes (perfiles metálicos tipo C) con profundidades de empotramiento de 1.50 y 1.80 metros, definidas por el cliente, aplicando los métodos de Décourt-Quaresma y Aoki-Velloso. Los resultados confirmaron una capacidad de carga ALTA: hasta 233 toneladas (Décourt-Quaresma) y 355 toneladas (Aoki-Velloso) para estacas clavadas, y 14.6 y 24 toneladas respectivamente para estacas helicoidales, a 1.80 m de profundidad.",
+          "En paralelo se evaluaron dos riesgos geotécnicos adicionales: el potencial de expansión de suelos (métodos de Seed et al. 1962 y Dakshanamanthy y Raman 1973), que resultó de BAJO a MEDIO; y el potencial de licuefacción (método de Idriss y Boulanger, 2004, para un sismo de magnitud 7), que determinó que los suelos del proyecto son NO-LICUABLES.",
+        ],
+        imagenes: [],
+      },
+      {
+        titulo: "6. Zonificación sísmica y recomendaciones",
+        parrafos: [
+          "La zonificación sísmica del sitio, según el Reglamento para el Diseño Estructural en Panamá (REP-2021), definió un perfil de suelo Tipo B con parámetros S1 = 0.22g, Ss = 0.66g y una aceleración pico del terreno (PGA) de 0.28g.",
+          "Entre las recomendaciones generales del informe: mantener los rellenos entre 90% y 95% del Proctor Modificado, control topográfico para evitar empozamiento de agua, materiales de resistencia mínima de f'c = 250 kg/cm² para concreto y Fy = 4200 kg/cm² para acero, y una profundidad mínima de empotramiento de 1.50 metros para las estacas, considerando el factor de volteo por viento.",
+        ],
+        imagenes: [],
+      },
+    ],
+    resultado:
+      "El estudio confirmó que el subsuelo del proyecto tiene capacidad de carga alta y sin restricciones significativas por expansión o licuefacción, permitiendo avanzar con el diseño de fundaciones del parque fotovoltaico. Informe NDC-P-24015, entregado en junio de 2024, con autorización de MASPV Panama para su publicación.",
+  },
 ];
 
 export function getCaso(slug: string) {
