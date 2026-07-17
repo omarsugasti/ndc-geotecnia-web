@@ -31,6 +31,11 @@ export default async function ServicioPage({
   const servicio = getServicio(slug);
   if (!servicio) return notFound();
 
+  const mensajeWhatsapp = encodeURIComponent(
+    `Hola, quiero solicitar una *COTIZACIÓN* para el servicio de ${servicio.nombre} — vengo de la página web de NDC Geotecnia.`
+  );
+  const linkWhatsapp = `https://wa.me/50766719558?text=${mensajeWhatsapp}`;
+
   return (
     <>
       <section className="bg-neutral-50 border-b border-neutral-100">
@@ -46,7 +51,7 @@ export default async function ServicioPage({
           </h1>
           <p className="text-lg text-neutral-600">{servicio.intro}</p>
           <a
-            href="https://wa.me/50766719558"
+            href={linkWhatsapp}
             className="mt-6 inline-block rounded-full bg-steel-700 text-white font-semibold px-6 py-3 hover:bg-steel-600"
           >
             Solicitar cotización
@@ -87,7 +92,7 @@ export default async function ServicioPage({
             ¿Tienes un proyecto que necesita {servicio.nombre.toLowerCase()}?
           </p>
           <a
-            href="https://wa.me/50766719558"
+            href={linkWhatsapp}
             className="whitespace-nowrap rounded-full bg-white text-steel-700 font-semibold px-6 py-3 hover:bg-neutral-100"
           >
             Escribir por WhatsApp →

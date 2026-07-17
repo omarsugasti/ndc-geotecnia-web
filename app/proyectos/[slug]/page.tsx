@@ -32,6 +32,11 @@ export default async function CasoPage({
   const caso = getCaso(slug);
   if (!caso) return notFound();
 
+  const mensajeWhatsapp = encodeURIComponent(
+    `Hola, quiero solicitar una *COTIZACIÓN* — vi el caso "${caso.nombre}" en la página web de NDC Geotecnia y me gustaría más información.`
+  );
+  const linkWhatsapp = `https://wa.me/50766719558?text=${mensajeWhatsapp}`;
+
   return (
     <article>
       <section className="bg-neutral-50 border-b border-neutral-100">
@@ -107,7 +112,7 @@ export default async function CasoPage({
             ¿Tienes un talud que necesita evaluación técnica?
           </p>
           <a
-            href="https://wa.me/50766719558"
+            href={linkWhatsapp}
             className="whitespace-nowrap rounded-full bg-white text-steel-700 font-semibold px-6 py-3 hover:bg-neutral-100"
           >
             Escribir por WhatsApp →

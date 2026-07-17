@@ -106,7 +106,7 @@ export default function Home() {
           </blockquote>
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="https://wa.me/50766719558"
+              href="https://wa.me/50766719558?text=Hola%2C%20quiero%20solicitar%20una%20*COTIZACI%C3%93N*%20%E2%80%94%20vengo%20de%20la%20p%C3%A1gina%20web%20de%20NDC%20Geotecnia."
               className="rounded-full bg-orange-500 text-white font-semibold px-6 py-3 hover:bg-orange-400"
             >
               Solicitar cotización por WhatsApp
@@ -266,7 +266,7 @@ export default function Home() {
             </p>
           </div>
           <a
-            href="https://wa.me/50766719558"
+            href="https://wa.me/50766719558?text=Hola%2C%20quiero%20solicitar%20una%20*COTIZACI%C3%93N*%20%E2%80%94%20vengo%20de%20la%20p%C3%A1gina%20web%20de%20NDC%20Geotecnia."
             className="whitespace-nowrap rounded-full bg-white text-steel-700 font-semibold px-6 py-3 hover:bg-neutral-100"
           >
             Escribir por WhatsApp →

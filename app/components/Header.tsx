@@ -39,7 +39,7 @@ export default function Header() {
 
         <div className="flex items-center gap-2">
           <a
-            href="https://wa.me/50766719558"
+            href="https://wa.me/50766719558?text=Hola%2C%20quiero%20solicitar%20una%20*COTIZACI%C3%93N*%20%E2%80%94%20vengo%20de%20la%20p%C3%A1gina%20web%20de%20NDC%20Geotecnia."
             target="_blank"
             rel="noopener noreferrer"
             className="hidden sm:inline-block rounded-full bg-steel-700 text-white text-sm font-semibold px-4 py-2 hover:bg-steel-600"
@@ -84,7 +84,7 @@ export default function Header() {
           </ul>
           <div className="px-4 py-4 sm:hidden">
             <a
-              href="https://wa.me/50766719558"
+              href="https://wa.me/50766719558?text=Hola%2C%20quiero%20solicitar%20una%20*COTIZACI%C3%93N*%20%E2%80%94%20vengo%20de%20la%20p%C3%A1gina%20web%20de%20NDC%20Geotecnia."
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setOpen(false)}

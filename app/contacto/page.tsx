@@ -19,7 +19,7 @@ export default function ContactoPage() {
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <a
-          href="https://wa.me/50766719558"
+          href="https://wa.me/50766719558?text=Hola%2C%20quiero%20solicitar%20una%20*COTIZACI%C3%93N*%20%E2%80%94%20vengo%20de%20la%20p%C3%A1gina%20web%20de%20NDC%20Geotecnia."
           className="rounded-xl border border-neutral-200 p-6 hover:border-steel-600 hover:shadow-sm transition"
         >
           <p className="font-semibold text-neutral-900">WhatsApp</p>

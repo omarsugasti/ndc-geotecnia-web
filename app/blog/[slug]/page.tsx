@@ -55,7 +55,7 @@ export default async function ArticuloPage({
           ¿Tienes un proyecto que necesita evaluación geotécnica?
         </p>
         <a
-          href="https://wa.me/50766719558"
+          href="https://wa.me/50766719558?text=Hola%2C%20quiero%20solicitar%20una%20*COTIZACI%C3%93N*%20%E2%80%94%20vengo%20de%20la%20p%C3%A1gina%20web%20de%20NDC%20Geotecnia."
           className="whitespace-nowrap rounded-full bg-steel-700 text-white font-semibold px-5 py-2.5 text-sm hover:bg-steel-600"
         >
           Escribir por WhatsApp →
