@@ -17,7 +17,7 @@ const blog = [
   "como-prevenir-deslizamientos-de-tierra",
 ];
 
-const proyectos = ["cierre-mina-cemex", "fotovoltaico-san-bartolo"];
+const proyectos = ["cierre-mina-cemex", "fotovoltaico-san-bartolo", "puntos-criticos-llano-tugri"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://ndc-geotecnia.com";

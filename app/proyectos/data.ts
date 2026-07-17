@@ -221,6 +221,77 @@ export const casos: CasoDetallado[] = [
     resultado:
       "El estudio confirmó que el subsuelo del proyecto tiene capacidad de carga alta y sin restricciones significativas por expansión o licuefacción, permitiendo avanzar con el diseño de fundaciones del parque fotovoltaico. Informe NDC-P-24015, entregado en junio de 2024.",
   },
+  {
+    slug: "puntos-criticos-llano-tugri",
+    nombre: "Remediación de Puntos Críticos — Vía Quebrada Guabo a Llano Tugrí",
+    ubicacion: "Comarca Ngäbe-Buglé, Panamá (estaciones 24k+000 a 29k+000)",
+    cliente: "Obra vial pública",
+    resumen:
+      "Estabilización de cuatro puntos críticos (fallas de talud) sobre la vía a Llano Tugrí mediante anclajes con inyección de lechada, malla electrosoldada y shotcrete, en terreno montañoso de acceso difícil.",
+    problema:
+      "Cuatro puntos de falla activa sobre los taludes de la vía Quebrada Guabo a Llano Tugrí, en las estaciones 24k+000, 26k+000, 28k+000 y 29k+000, con pendientes muy pronunciadas y zonas de difícil acceso. El diseño de estabilización fue entregado por el cliente; NDC ejecutó la obra en su totalidad.",
+    imagenPortada: {
+      src: "/images/proyectos/llano-tugri-1.jpg",
+      alt: "Movilización de equipo de perforación y anclajes instalados en talud de la vía Llano Tugrí",
+    },
+    etapas: [
+      {
+        titulo: "1. Movilización y preparación del talud",
+        parrafos: [
+          "En cada punto crítico se movilizó el equipo de perforación, camiones grúa y maquinaria (compresores, excavadora) hasta el sitio, sobre una vía de montaña de acceso restringido. Antes de perforar, se realizó la limpieza y el desbroce del talud para dejar expuesta la superficie de roca o suelo a tratar.",
+        ],
+        imagenes: [
+          {
+            src: "/images/proyectos/llano-tugri-1.jpg",
+            alt: "Camión grúa, excavadora y equipo de perforación movilizados en el talud, con anclajes ya instalados en el sector inferior",
+          },
+        ],
+      },
+      {
+        titulo: "2. Perforación e instalación de anclajes con inyección de lechada",
+        parrafos: [
+          "Se perforó el talud y se instalaron anclajes de distintas longitudes según el punto (8, 10, 12 y 15 metros), inyectando lechada de fijación en cada perforación para integrar el anclaje a la roca o suelo circundante. En conjunto, los cuatro puntos críticos sumaron alrededor de 1,600 metros lineales de anclajes perforados e inyectados.",
+        ],
+        imagenes: [
+          {
+            src: "/images/proyectos/llano-tugri-4.jpg",
+            alt: "Equipo de perforación instalando anclajes sobre el talud, con filas de anclajes ya colocados y maquinaria en la vía",
+          },
+        ],
+      },
+      {
+        titulo: "3. Colocación de malla electrosoldada",
+        parrafos: [
+          "Sobre los anclajes ya instalados se tendió malla electrosoldada cubriendo toda la superficie del talud, fijada a las cabezas de los anclajes. Esta malla es la que después retiene y refuerza la capa de shotcrete. En total se instalaron más de 1,500 m² de malla entre los cuatro puntos críticos.",
+        ],
+        imagenes: [
+          {
+            src: "/images/proyectos/llano-tugri-5.jpg",
+            alt: "Malla electrosoldada instalada sobre el talud, fijada a los anclajes previamente colocados",
+          },
+        ],
+      },
+      {
+        titulo: "4. Aplicación de shotcrete",
+        parrafos: [
+          "Con la malla fija, se aplicó shotcrete de 15 cm de espesor sobre toda la superficie tratada, usando plataformas suspendidas para alcanzar los sectores más altos y empinados del talud. En los puntos de pendiente más pronunciada, el personal trabajó con técnicas de acceso por cuerda para llegar a zonas que la maquinaria no podía cubrir directamente.",
+          "Como cierre, se colocaron las placas y tuercas de fijación en las cabezas de los anclajes, completando el sistema de estabilización en cada punto crítico.",
+        ],
+        imagenes: [
+          {
+            src: "/images/proyectos/llano-tugri-3.jpg",
+            alt: "Aplicación de shotcrete sobre el talud con bomba y excavadora con plataforma suspendida",
+          },
+          {
+            src: "/images/proyectos/llano-tugri-2.jpg",
+            alt: "Shotcrete aplicado en un tramo de fuerte pendiente, con personal en técnicas de acceso por cuerda",
+          },
+        ],
+      },
+    ],
+    resultado:
+      "Los cuatro puntos críticos de la vía Quebrada Guabo a Llano Tugrí quedaron estabilizados con anclajes inyectados, malla electrosoldada y shotcrete, ejecutados entre enero y abril de 2026 sobre un diseño entregado por el cliente.",
+  },
 ];
 
 export function getCaso(slug: string) {
