@@ -46,14 +46,6 @@ export default function NosotrosPage() {
           <p className="text-neutral-500 text-sm mt-1">equipo técnico propio</p>
         </div>
       </div>
-
-      <div className="mt-12 rounded-xl bg-neutral-50 border border-neutral-100 p-6">
-        <p className="text-sm text-neutral-500">
-          Nota interna: esta sección está lista para ampliarse con fotos del equipo,
-          certificaciones, licencias y cobertura geográfica real. Agrégalas cuando las
-          tengas a mano — no se inventó ningún dato adicional aquí.
-        </p>
-      </div>
     </section>
   );
 }

@@ -15,6 +15,11 @@ const blog = [
   "diferencia-entre-spt-y-cpt",
   "cuando-se-necesitan-micropilotes",
   "como-prevenir-deslizamientos-de-tierra",
+  "que-es-el-shotcrete",
+  "que-es-el-rep-2021",
+  "deslizamientos-2025-cifras-globales",
+  "inteligencia-artificial-geotecnia-tendencias",
+  "cimentaciones-mas-profundas-del-mundo",
 ];
 
 const proyectos = ["cierre-mina-cemex", "fotovoltaico-san-bartolo", "puntos-criticos-llano-tugri"];

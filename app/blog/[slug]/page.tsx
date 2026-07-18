@@ -50,6 +50,23 @@ export default async function ArticuloPage({
         ))}
       </div>
 
+      {articulo.fuentes && articulo.fuentes.length > 0 && (
+        <div className="mt-8 pt-6 border-t border-neutral-200">
+          <p className="text-xs font-semibold text-neutral-500 uppercase tracking-wide mb-2">
+            Fuentes
+          </p>
+          <ul className="text-sm text-neutral-500 space-y-1">
+            {articulo.fuentes.map((f, i) => (
+              <li key={i}>
+                <a href={f.url} target="_blank" rel="noopener noreferrer" className="hover:text-steel-700 underline">
+                  {f.texto}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       <div className="mt-12 rounded-xl bg-neutral-50 border border-neutral-100 p-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-sm text-neutral-600">
           ¿Tienes un proyecto que necesita evaluación geotécnica?
