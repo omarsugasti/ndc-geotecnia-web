@@ -36,8 +36,12 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-neutral-800 py-4 text-center text-xs text-neutral-500">
-        © {new Date().getFullYear()} NDC Geotecnia. Todos los derechos reservados.
+      <div className="border-t border-neutral-800 py-4 flex flex-col sm:flex-row items-center justify-center gap-2 text-center text-xs text-neutral-500">
+        <span>© {new Date().getFullYear()} NDC Geotecnia. Todos los derechos reservados.</span>
+        <span className="hidden sm:inline">·</span>
+        <Link href="/politica-de-privacidad" className="hover:text-neutral-300 underline">
+          Política de Privacidad
+        </Link>
       </div>
     </footer>
   );

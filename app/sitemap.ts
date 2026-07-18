@@ -31,6 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog`, priority: 0.7 },
     { url: `${base}/nosotros`, priority: 0.5 },
     { url: `${base}/contacto`, priority: 0.6 },
+    { url: `${base}/politica-de-privacidad`, priority: 0.3 },
   ];
 
   const servicePages = servicios.map((slug) => ({
