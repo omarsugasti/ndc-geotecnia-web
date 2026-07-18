@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "NDC Academia — Glosario y Recursos Geotécnicos",
   description:
-    "Glosario geotécnico, preguntas frecuentes y guías descargables sobre estudios de suelos, anclajes y estabilización de taludes.",
+    "Glosario geotécnico sobre estudios de suelos, anclajes y estabilización de taludes.",
 };
 
 const glosario = [
@@ -30,23 +30,13 @@ export default function AcademiaPage() {
       </p>
 
       <h2 className="text-2xl font-bold text-neutral-900 mb-6">Glosario geotécnico</h2>
-      <div className="space-y-4 mb-16">
+      <div className="space-y-4">
         {glosario.map((g) => (
           <div key={g.termino} className="border-b border-neutral-100 pb-4">
             <p className="font-semibold text-neutral-900">{g.termino}</p>
             <p className="text-sm text-neutral-600 mt-1">{g.definicion}</p>
           </div>
         ))}
-      </div>
-
-      <div className="rounded-xl border border-dashed border-neutral-300 p-8 text-center">
-        <p className="font-semibold text-neutral-900 mb-2">Guías descargables</p>
-        <p className="text-neutral-500 text-sm">
-          Próximamente: guías en PDF sobre cómo interpretar un informe de suelos, qué
-          preguntar antes de contratar un estudio geotécnico, y checklist de
-          documentos para permisos de construcción. Se publican aquí a medida que se
-          producen — no como una lista prometida de antemano.
-        </p>
       </div>
     </section>
   );
