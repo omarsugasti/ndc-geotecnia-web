@@ -121,6 +121,46 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Alianza estratégica — INERSIA MONITORING */}
+      <section className="mx-auto max-w-6xl px-4 py-14">
+        <div className="rounded-2xl bg-neutral-900 p-8 md:p-10 flex flex-col md:flex-row items-center gap-8">
+          <a
+            href="https://www.inersiamonitoring.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="shrink-0"
+          >
+            <Image
+              src="/images/inersia-monitoring-logo.png"
+              alt="INERSIA MONITORING — Soluciones avanzadas con tecnología satelital"
+              width={240}
+              height={135}
+              className="rounded-lg w-56 md:w-60 h-auto"
+            />
+          </a>
+          <div>
+            <p className="text-orange-400 font-semibold text-sm uppercase tracking-wide mb-2">
+              Alianza estratégica
+            </p>
+            <h2 className="text-xl md:text-2xl font-bold text-white mb-2">
+              Representante para Centroamérica y Panamá de INERSIA MONITORING
+            </h2>
+            <p className="text-neutral-300 text-sm max-w-2xl mb-4">
+              Soluciones avanzadas de monitoreo con tecnología satelital, disponibles en la
+              región a través de NDC Geotecnia.
+            </p>
+            <a
+              href="https://www.inersiamonitoring.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-sm font-semibold text-white underline hover:text-orange-400"
+            >
+              Conocer más en inersiamonitoring.com →
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Clientes */}
       <section className="border-y border-neutral-100 bg-neutral-50">
         <div className="mx-auto max-w-6xl px-4 py-8">
