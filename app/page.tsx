@@ -44,6 +44,12 @@ const servicios = [
     resumen:
       "Instalación certificada de sistemas TECCO®, SPIDER®, DELTAX® y MINAX® de GEOBRUGG. Más de 40,000 m² instalados en Panamá.",
   },
+  {
+    slug: "monitoreo-satelital",
+    nombre: "Monitoreo Satelital",
+    resumen:
+      "Monitoreo de deformación del terreno con tecnología satelital, a través de nuestra alianza como representantes de INERSIA MONITORING para Centroamérica y Panamá.",
+  },
 ];
 
 const clientes = [
@@ -128,14 +134,14 @@ export default function Home() {
             href="https://www.inersiamonitoring.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="shrink-0"
+            className="shrink-0 block rounded-lg bg-white p-4 w-56 md:w-60"
           >
             <Image
               src="/images/inersia-monitoring-logo.png"
               alt="INERSIA MONITORING — Soluciones avanzadas con tecnología satelital"
               width={240}
               height={135}
-              className="rounded-lg w-56 md:w-60 h-auto"
+              className="w-full h-auto"
             />
           </a>
           <div>
@@ -192,7 +198,7 @@ export default function Home() {
           Lo que hacemos
         </p>
         <h2 className="text-3xl font-bold text-neutral-900 mb-2">
-          Servicios especializados en geotecnia
+          Servicios Especializados en Geotecnia / Geología
         </h2>
         <p className="text-neutral-600 max-w-2xl mb-10">
           Cada proyecto empieza con un diagnóstico real del terreno. Sin atajos, sin

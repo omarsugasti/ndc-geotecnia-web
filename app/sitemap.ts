@@ -8,6 +8,7 @@ const servicios = [
   "estudios-de-suelos",
   "prospeccion-mineral",
   "mallas-geobrugg",
+  "monitoreo-satelital",
 ];
 
 const blog = [

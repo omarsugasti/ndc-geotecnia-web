@@ -333,6 +333,49 @@ export const servicios: ServicioContenido[] = [
       },
     ],
   },
+  {
+    slug: "monitoreo-satelital",
+    nombre: "Monitoreo Satelital",
+    tituloSeo: "Monitoreo Satelital de Taludes e Infraestructura en Panamá | INERSIA MONITORING",
+    resumen:
+      "Monitoreo de deformación del terreno con tecnología satelital, a través de nuestra alianza como representantes de INERSIA MONITORING para Centroamérica y Panamá.",
+    intro:
+      "Hay movimientos del terreno demasiado lentos o demasiado extendidos para detectarse solo con inspección visual o instrumentación puntual. El monitoreo satelital resuelve eso: mide desplazamientos milimétricos del terreno sobre grandes áreas, a partir de imágenes de radar captadas por satélite, sin necesidad de instalar sensores en el sitio.",
+    secciones: [
+      {
+        titulo: "¿Qué es el monitoreo satelital de terreno?",
+        parrafos: [
+          "La técnica compara imágenes de radar satelital sucesivas sobre la misma área para detectar y medir movimientos del terreno con precisión milimétrica a lo largo del tiempo, sin necesidad de sensores físicos instalados en campo. Al depender de imágenes satelitales, permite cubrir corredores completos — una vía, una cuenca minera, una zona urbana — en vez de puntos aislados.",
+          "En muchas regiones existe además un historial de imágenes de varios años, lo que permite reconstruir la tendencia de movimiento de un sitio antes de decidir si amerita una intervención, no solo su estado actual.",
+        ],
+      },
+      {
+        titulo: "Usos principales",
+        parrafos: [
+          "Monitoreo de taludes de riesgo conocido a lo largo de corredores extensos, como carreteras y vías de acceso en zonas montañosas. Seguimiento de asentamientos (subsidencia) en zonas urbanas o sobre infraestructura crítica — presas, ductos, edificaciones. Monitoreo de operaciones mineras activas y depósitos de relaves o material estéril. Verificación de estabilidad posterior a una intervención de estabilización, como monitoreo de seguimiento a mediano y largo plazo.",
+        ],
+      },
+      {
+        titulo: "NDC como representante de INERSIA MONITORING",
+        parrafos: [
+          "NDC Geotecnia es representante para Centroamérica y Panamá de INERSIA MONITORING, y a través de esta alianza canaliza su plataforma de monitoreo satelital para clientes en la región — como complemento a los estudios de campo y las intervenciones de estabilización que NDC ejecuta directamente.",
+          "Para el detalle técnico completo de la plataforma, ver inersiamonitoring.com.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        pregunta: "¿El monitoreo satelital reemplaza el monitoreo en campo?",
+        respuesta:
+          "No, lo complementa. Cubre áreas extensas y detecta tendencias de movimiento, pero el criterio de campo — instrumentación puntual, evaluación geotécnica — sigue siendo necesario para decisiones de intervención.",
+      },
+      {
+        pregunta: "¿Se necesita instalar equipos en el sitio para el monitoreo satelital?",
+        respuesta:
+          "No. Esa es la principal diferencia frente al monitoreo convencional: la medición se obtiene a partir de imágenes satelitales, sin sensores instalados en campo.",
+      },
+    ],
+  },
 ];
 
 export function getServicio(slug: string) {
