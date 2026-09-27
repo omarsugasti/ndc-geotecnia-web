@@ -2,6 +2,7 @@ export interface Etapa {
   titulo: string;
   parrafos: string[];
   imagenes: { src: string; alt: string }[];
+  video?: { src: string; poster: string; alt: string };
 }
 
 export interface CasoDetallado {
@@ -291,6 +292,51 @@ export const casos: CasoDetallado[] = [
     ],
     resultado:
       "Los cuatro puntos críticos de la vía Quebrada Guabo a Llano Tugrí quedaron estabilizados con anclajes inyectados, malla electrosoldada y shotcrete, ejecutados entre enero y abril de 2026 sobre un diseño entregado por el cliente.",
+  },
+  {
+    slug: "soil-nailing-mantra-paitilla",
+    nombre: "Soil Nailing para excavación de sótano — Proyecto MANTRA",
+    ubicacion: "Paitilla, Ciudad de Panamá",
+    cliente: "Proyecto MANTRA",
+    resumen:
+      "Perforación e instalación de barras de soil nailing de 5 metros para sostener el muro de shotcrete de la excavación, a medida que la obra desciende nivel a nivel para construir el sótano.",
+    problema:
+      "La excavación del sótano del proyecto MANTRA, en pleno Paitilla, debía avanzar en un entorno urbano denso y de espacio restringido. Cada nivel de excavación necesitaba quedar contenido de inmediato antes de seguir bajando, sin depender de un sistema de contención que tuviera que instalarse por completo antes de empezar a excavar.",
+    imagenPortada: {
+      src: "/images/proyectos/soil-nailing-mantra-1.jpg",
+      alt: "Equipo de NDC Geotecnia en la excavación del sótano del proyecto MANTRA, Paitilla",
+    },
+    etapas: [
+      {
+        titulo: "1. ¿Qué es un soil nailing?",
+        parrafos: [
+          "El soil nailing es una técnica de refuerzo de terreno in situ que estabiliza la pared de una excavación a medida que esta avanza. Consiste en instalar barras de acero ancladas dentro del talud de corte mediante perforación e inyección de lechada, y cubrir la superficie con una capa de shotcrete reforzada con malla — el muro de contención que va tomando forma junto con la excavación.",
+          "A diferencia de un anclaje activo, que se tensiona a una carga específica apenas se instala, las barras de un soil nailing trabajan de forma pasiva: no se tensionan, sino que movilizan resistencia por fricción contra el suelo a medida que el muro tiende a deformarse mínimamente. Esa característica es lo que hace al soil nailing especialmente apto para excavaciones que bajan por niveles, como un sótano.",
+          "La secuencia se repite nivel por nivel: se excava un banco de uno a dos metros de profundidad, se perforan e instalan las barras en ese tramo, se aplica el shotcrete sobre la superficie recién excavada, y solo entonces se excava el siguiente nivel — sin dejar nunca un tramo de talud expuesto sin contención por más tiempo del necesario.",
+        ],
+        imagenes: [],
+        video: {
+          src: "/videos/soil-nailing-mantra-perforacion.mp4",
+          poster: "/images/proyectos/soil-nailing-mantra-poster.jpg",
+          alt: "Perforación para instalar barras de soil nailing de 5 metros en la pared de excavación del proyecto MANTRA",
+        },
+      },
+      {
+        titulo: "2. Ejecución en el proyecto MANTRA",
+        parrafos: [
+          "En MANTRA, NDC Geotecnia ejecutó la perforación para instalar barras de soil nailing de 5 metros de longitud en la pared de la excavación, conforme la obra avanzaba nivel por nivel hacia la profundidad final del sótano. Sobre cada tramo perforado se aplicó el muro de shotcrete que sostiene el corte mientras la excavación continúa descendiendo.",
+          "El resultado en obra es un muro de contención que crece al mismo ritmo que la excavación — visible en la foto como una superficie de shotcrete ya terminada, con sus salidas de drenaje, mientras el equipo continúa perforando y excavando los niveles inferiores.",
+        ],
+        imagenes: [
+          {
+            src: "/images/proyectos/soil-nailing-mantra-1.jpg",
+            alt: "Excavación del sótano del proyecto MANTRA con muro de shotcrete y equipo de perforación de NDC Geotecnia en Paitilla",
+          },
+        ],
+      },
+    ],
+    resultado:
+      "El sótano del proyecto MANTRA avanzó de forma segura nivel por nivel, con cada tramo de excavación contenido por el sistema de soil nailing y shotcrete antes de continuar excavando el siguiente. NDC Geotecnia en acción, en pleno Paitilla.",
   },
 ];
 

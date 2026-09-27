@@ -23,7 +23,12 @@ const blog = [
   "cimentaciones-mas-profundas-del-mundo",
 ];
 
-const proyectos = ["cierre-mina-cemex", "fotovoltaico-san-bartolo", "puntos-criticos-llano-tugri"];
+const proyectos = [
+  "cierre-mina-cemex",
+  "fotovoltaico-san-bartolo",
+  "puntos-criticos-llano-tugri",
+  "soil-nailing-mantra-paitilla",
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://ndc-geotecnia.com";

@@ -71,6 +71,19 @@ export default async function CasoPage({
                 {p}
               </p>
             ))}
+            {etapa.video && (
+              <div className="mt-6 rounded-xl overflow-hidden border border-neutral-200 bg-black">
+                <video
+                  controls
+                  playsInline
+                  poster={etapa.video.poster}
+                  aria-label={etapa.video.alt}
+                  className="w-full max-h-[480px] mx-auto"
+                >
+                  <source src={etapa.video.src} type="video/mp4" />
+                </video>
+              </div>
+            )}
             {etapa.imagenes.length > 0 && (
               <div
                 className={`grid gap-3 mt-6 ${
