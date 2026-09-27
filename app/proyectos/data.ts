@@ -304,7 +304,7 @@ export const casos: CasoDetallado[] = [
       "La excavación del sótano del proyecto MANTRA, en pleno Paitilla, debía avanzar en un entorno urbano denso y de espacio restringido. Cada nivel de excavación necesitaba quedar contenido de inmediato antes de seguir bajando, sin depender de un sistema de contención que tuviera que instalarse por completo antes de empezar a excavar.",
     imagenPortada: {
       src: "/images/proyectos/soil-nailing-mantra-1.jpg",
-      alt: "Equipo de NDC Geotecnia en la excavación del sótano del proyecto MANTRA, Paitilla",
+      alt: "Vista de la excavación del sótano del proyecto MANTRA con muro de shotcrete y equipo de NDC Geotecnia perforando para instalar las barras de soil nailing, Paitilla",
     },
     etapas: [
       {
@@ -330,7 +330,7 @@ export const casos: CasoDetallado[] = [
         imagenes: [
           {
             src: "/images/proyectos/soil-nailing-mantra-1.jpg",
-            alt: "Excavación del sótano del proyecto MANTRA con muro de shotcrete y equipo de perforación de NDC Geotecnia en Paitilla",
+            alt: "Vista elevada de la excavación con muro de shotcrete, malla y equipo de NDC Geotecnia perforando para las barras de soil nailing, proyecto MANTRA",
           },
         ],
       },
